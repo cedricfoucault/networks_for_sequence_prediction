@@ -1,0 +1,14 @@
+{
+    "seed": 1,
+    "train_dataset_name": "MC_PC1by75_NMB400_28-02-20",
+    "validate_dataset_name": "MC_PC1by75_NMB400_28-02-20",
+    "unit_type": "GRU",
+    "n_units": 11,
+    "optimizer.name": "Adam",
+    "optimizer.lr": 0.0438631026541565,
+    "initialization.weight.input_to_hidden.std": 1.0,
+    "initialization.weight.hidden_to_hidden.std": 0.021739130434782608,
+    "num_samples": 20,
+    "progress_step_size": 5,
+    "shuffle_minibatches": True
+}

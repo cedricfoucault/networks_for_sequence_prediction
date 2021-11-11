@@ -1,0 +1,18 @@
+{
+    "seed": 55,
+    "train_dataset_name": "MC_PC1by75_NMB400_28-02-20",
+    "validate_dataset_name": "MC_PC1by75_NMB400_28-02-20",
+    "unit_type": "GRU",
+    "n_units": 11,
+    "initialization_scheme": "diagonal",
+    "train_diagonal_only": True,
+    "optimizer.name": "Adam",
+    "optimizer.lr": 0.04262637959303011,
+    "initialization.weight.input_to_hidden.std": 1.0,
+    "initialization.weight.hidden_to_hidden.std": 1.0,
+    "init_diagonal_mean": 0.0,
+    "num_samples": 20,
+    "progress_step_size": 5,
+    "shuffle_minibatches": True,
+    "enable_compute_loss_with_logits_during_training": True
+}

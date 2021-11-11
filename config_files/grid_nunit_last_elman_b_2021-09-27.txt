@@ -1,0 +1,15 @@
+{
+    "seed": 55,
+    "train_dataset_name": "B_PC1by75_NMB400_N1000_20-11-28",
+    "validate_dataset_name": "B_PC1by75_NMB400_N1000_20-11-28",
+    "unit_type": "RNN",
+    "n_units": 1000,
+    "optimizer.name": "Adam",
+    "optimizer.lr": 0.0001335022163380898,
+    "initialization.weight.input_to_hidden.std": 1.0,
+    "initialization.weight.hidden_to_hidden.std": 0.038039229054098345,
+    "num_samples": 20,
+    "progress_step_size": 400,
+    "shuffle_minibatches": True
+}
+

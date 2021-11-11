@@ -1,0 +1,13 @@
+,0
+data_path_1,results/perturbation_experiment/perturbation_confidence_on_lr_slope_data_gru.csv
+data_path_2,results/perturbation_experiment/perturbation_confidence_on_lr_slope_data_grureservoir.csv
+tvalue,-4.088233596420613
+pvalue,0.00021715406213878834
+cohen_d,-1.2928129771510737
+cohen_d_from_t,-1.3263981278517605
+mean_1,-0.010892524543025585
+ci_lower_1,-0.01427644607101497
+ci_upper_1,-0.0075086030150362006
+mean_2,0.030246067643900344
+ci_lower_2,0.009458256625022542
+ci_upper_2,0.05103387866277814

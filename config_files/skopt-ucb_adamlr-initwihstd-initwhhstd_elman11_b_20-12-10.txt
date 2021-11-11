@@ -1,0 +1,28 @@
+{
+    "seed": 1,
+    "train_dataset_name": "B_PC1by75_NMB160_N200_20-12-05",
+    "validate_dataset_name": "B_PC1by75_NMB160_N200_20-12-05",
+    "unit_type": "RNN",
+    "n_units": 11,
+    "optimizer.name": "Adam",
+    "search_alg": tune.suggest.Repeater(
+        SkOptSearch(
+            skopt.Optimizer([
+                    skopt.space.Real(1e-4, 1e-1, prior="log-uniform", name="optimizer.lr"),
+                    skopt.space.Real(0.022, 1, prior="log-uniform", base=2, name="initialization.weight.input_to_hidden.std"),
+                    skopt.space.Real(0.022, 0.5, prior="log-uniform", base=2, name="initialization.weight.hidden_to_hidden.std")
+                ],
+                acq_func="LCB",
+                random_state=1,
+                acq_func_kwargs={ "kappa": 1.96 },
+                n_initial_points=10,
+            ),
+            ["optimizer.lr", "initialization.weight.input_to_hidden.std", "initialization.weight.hidden_to_hidden.std"],
+            metric="validation_loss", mode="min",
+        ),
+        repeat=10
+    ),
+    "num_samples": 60*10,
+    "progress_step_size": 400,
+    "fail_fast": True,
+}

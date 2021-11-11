@@ -1,0 +1,9 @@
+,34
+Unnamed: 0,34
+data_dir,ray_data/skopt-ucb_adamlr-initwihstd-initwhhstd_grureservoir3_mi_20-12-12
+hyperparameter_keys,"('optimizer.lr', 'initialization.weight.input_to_hidden.std', 'initialization.weight.hidden_to_hidden.std')"
+hyperparameter_values,"(0.06567247264241928, 0.7342322825988298, 0.5536768332745505)"
+n_trials,10
+did_all_trial_complete,True
+mean_loss,0.6127617239952088
+min_loss,0.5966881513595581

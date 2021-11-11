@@ -1,0 +1,18 @@
+{
+    "seed": 1,
+    "train_dataset_name": "B_PC1by75_NMB160_28-02-20",
+    "validate_dataset_name": "B_PC1by75_NMB160_28-02-20",
+    "unit_type": "GRU",
+    "n_units": 11,
+    "initialization_scheme": "diagonal",
+    "train_diagonal_only": True,
+    "optimizer.name": "Adam",
+    "optimizer.lr": 0.02655161178753221,
+    "initialization.weight.input_to_hidden.std": 1.0,
+    "initialization.weight.hidden_to_hidden.std": 0.021739130434782608,
+    "init_diagonal_mean": 1.0,
+    "num_samples": 20,
+    "progress_step_size": 2,
+    "shuffle_minibatches": True
+}
+

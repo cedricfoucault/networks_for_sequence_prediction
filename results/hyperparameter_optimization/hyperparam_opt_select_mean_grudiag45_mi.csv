@@ -1,0 +1,9 @@
+,37
+Unnamed: 0,37
+data_dir,ray_data/skopt-ucb_adamlr-initwihstd-initwhhstd_grudiag45_mi_20-12-10
+hyperparameter_keys,"('optimizer.lr', 'initialization.weight.input_to_hidden.std', 'initialization.weight.hidden_to_hidden.std', 'init_diagonal_mean')"
+hyperparameter_values,"(0.027528813154931477, 1.0, 1.0, 0.0)"
+n_trials,10
+did_all_trial_complete,True
+mean_loss,0.5552533388137817
+min_loss,0.5500854253768921

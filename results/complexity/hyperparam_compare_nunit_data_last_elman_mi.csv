@@ -1,0 +1,2 @@
+,validate_dataset_name,sample_network_path,n_units,n_trained_parameters,mean_performance,ci_upper_performance,ci_lower_performance,max_performance
+0,MI_PC1by75_NMB400_N1000_20-11-28,trained_models/raw_training_outputs/complexity/grid_nunit_last_elman_mi_2021-09-27/0_0_2021-11-10_18-53-32/trained_model.pt,1000,1004002.0,95.90324105102849,96.17536265823685,95.63111944382013,96.93802004926646

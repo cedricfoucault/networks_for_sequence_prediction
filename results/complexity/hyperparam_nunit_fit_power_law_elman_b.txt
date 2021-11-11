@@ -1,0 +1,5 @@
+R2 of the linear regression on the fitted data points: 0.9241435157656456
+Estimated exponent parameter of the power law: 0.21071546557680446
+Estimated scaling constant parameter of the power law: 9.586959922677657
+Performance predicted by the power law at N=1000 units: 97.7636770788089
+Actual measured performance at N=1000 units: 97.60088407015192

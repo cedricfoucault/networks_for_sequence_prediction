@@ -1,0 +1,9 @@
+,16
+Unnamed: 0,16
+data_dir,ray_data/skopt-ucb_adamlr-initwihstd-initwhhstd_elman1000_b_21-09-27
+hyperparameter_keys,"('optimizer.lr', 'initialization.weight.input_to_hidden.std', 'initialization.weight.hidden_to_hidden.std')"
+hyperparameter_values,"(0.00015350800817657236, 1.0, 0.03424175966301936)"
+n_trials,10
+did_all_trial_complete,True
+mean_loss,0.5441085875034333
+min_loss,0.5431974530220032

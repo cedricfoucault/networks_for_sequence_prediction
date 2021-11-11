@@ -1,0 +1,7 @@
+# Common (shared) style for all medium
+
+figure.dpi: 300
+font.family: sans-serif
+font.sans-serif: Arial
+axes.spines.top: False
+axes.spines.right: False

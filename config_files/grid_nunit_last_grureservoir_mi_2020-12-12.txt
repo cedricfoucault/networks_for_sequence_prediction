@@ -1,0 +1,15 @@
+{
+    "seed": 55,
+    "train_dataset_name": "MI_PC1by75_NMB400_N1000_20-11-28",
+    "validate_dataset_name": "MI_PC1by75_NMB400_N1000_20-11-28",
+    "unit_type": "GRU",
+    "train_output_only": True,
+    "n_units": 474,
+    "optimizer.name": "Adam",
+    "optimizer.lr": 0.011064692150259039,
+    "initialization.weight.input_to_hidden.std": 2.0,
+    "initialization.weight.hidden_to_hidden.std": 0.10206509506767576,
+    "num_samples": 20,
+    "progress_step_size": 400,
+    "shuffle_minibatches": True
+}

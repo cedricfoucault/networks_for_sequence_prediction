@@ -1,0 +1,14 @@
+# Style appropriate for A4/Letter-size paper figures
+
+font.size: 8
+figure.titlesize: 10
+axes.titlesize: 8
+axes.labelsize: 8
+xtick.labelsize: 8
+ytick.labelsize: 8
+legend.fontsize: 8
+
+axes.labelpad: 4.0
+
+lines.linewidth: 1.0
+

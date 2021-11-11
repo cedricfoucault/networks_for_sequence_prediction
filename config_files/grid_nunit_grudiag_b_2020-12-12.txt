@@ -1,0 +1,18 @@
+{
+    "seed": 55,
+    "train_dataset_name": "B_PC1by75_NMB400_N1000_20-11-28",
+    "validate_dataset_name": "B_PC1by75_NMB400_N1000_20-11-28",
+    "unit_type": "GRU",
+    "initialization_scheme": "diagonal",
+    "train_diagonal_only": True,
+    "i_grid": tune.grid_search(list(range(17))),
+    "n_units": tune.sample_from(lambda spec: [1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 17, 21, 25, 31, 37, 45][spec.config.i_grid]),
+    "optimizer.name": "Adam",
+    "optimizer.lr": tune.sample_from(lambda spec: [0.053136940336911305, 0.053136940336911305, 0.053136940336911305, 0.053136940336911305, 0.053136940336911305, 0.02655161178753221, 0.02655161178753221, 0.02655161178753221, 0.02655161178753221, 0.02655161178753221, 0.02655161178753221, 0.02655161178753221, 0.02655161178753221, 0.013359469167323269, 0.013359469167323269, 0.013359469167323269, 0.013359469167323269][spec.config.i_grid]),
+    "initialization.weight.input_to_hidden.std": tune.sample_from(lambda spec: [0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0][spec.config.i_grid]),
+    "initialization.weight.hidden_to_hidden.std": tune.sample_from(lambda spec: [0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 0.021739130434782608, 1.0, 1.0, 1.0, 1.0][spec.config.i_grid]),
+    "init_diagonal_mean": 1.0,
+    "num_samples": 20,
+    "progress_step_size": 400,
+    "shuffle_minibatches": True
+}

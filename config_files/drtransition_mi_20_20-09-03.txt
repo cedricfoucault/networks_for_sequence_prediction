@@ -1,0 +1,12 @@
+{
+    "seed": 37,
+    "train_dataset_name": "MI_PC1by75_NMB400_01-03-20",
+    "validate_dataset_name": "MI_PC1by75_NMB400_01-03-20",
+    "model_class": "deltarule",
+    "estimate_type": "transition",
+    "optimizer.name": "SGD",
+    "optimizer.lr": 0.003,
+    "num_samples": 20,
+    "progress_step_size": 5,
+    "shuffle_minibatches": True
+}

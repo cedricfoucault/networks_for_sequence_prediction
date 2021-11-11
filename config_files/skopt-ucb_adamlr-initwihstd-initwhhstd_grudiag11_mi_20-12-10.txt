@@ -1,0 +1,31 @@
+{
+    "seed": 1,
+    "train_dataset_name": "MI_PC1by75_NMB400_N200_20-12-05",
+    "validate_dataset_name": "MI_PC1by75_NMB400_N200_20-12-05",
+    "unit_type": "GRU",
+    "n_units": 11,
+    "optimizer.name": "Adam",
+    "initialization_scheme": "diagonal",
+    "train_diagonal_only": True,
+    "search_alg": tune.suggest.Repeater(
+        SkOptSearch(
+            skopt.Optimizer([
+                    skopt.space.Real(1e-4, 1e-1, prior="log-uniform", name="optimizer.lr"),
+                    skopt.space.Real(1/46., 1., prior="log-uniform", base=2, name="initialization.weight.input_to_hidden.std"),
+                    skopt.space.Real(1/46., 1., prior="log-uniform", base=2, name="initialization.weight.hidden_to_hidden.std"),
+                    skopt.space.Categorical(categories=[0.0, 1.0], name="init_diagonal_mean")
+                ],
+                acq_func="LCB",
+                random_state=1,
+                acq_func_kwargs={ "kappa": 1.96 },
+                n_initial_points=10,
+            ),
+            ["optimizer.lr", "initialization.weight.input_to_hidden.std", "initialization.weight.hidden_to_hidden.std", "init_diagonal_mean"],
+            metric="validation_loss", mode="min",
+        ),
+        repeat=10
+    ),
+    "num_samples": 60*10,
+    "progress_step_size": 400,
+    "fail_fast": False,
+}
