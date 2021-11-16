@@ -48,6 +48,8 @@ If you are using Linux or macOS, you most likely already have Make installed.
 To make sure, run `make --version`.
 If you don't have Make, to install it, on Linux, run `sudo apt-get install build-essential`,
 on macOS, run `xcode-select --install` (or install Xcode through the App Store).
+On Windows, you can install Make through Chocolatey or WSL, as explained
+[here](https://pakstech.com/blog/make-windows/).
 
 You do not need to know how Make works in order to run the code,
 just follow the instructions in the below sections, which tell you how to:
