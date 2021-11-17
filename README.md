@@ -1,8 +1,7 @@
 Networks for sequence prediction
 ================================
 
-[![zenodo DOI badge](https://img.shields.io/badge/DOI-xx.xxxxx/zenodo.xxxxxxx-blue)](https://zenodo.org/badge/latestdoi/xxxxxxxxx)
-(<-- This will be the DOI link to the Zenodo archive of this repository once it is made public.)
+[![DOI](https://zenodo.org/badge/426944818.svg)](https://zenodo.org/badge/latestdoi/426944818)
 
 This repository contains the code to reproduce the results in the paper: <br />
 [Gated recurrence enables simple and accurate sequence prediction in stochastic, changing, and structured environments](https://doi.org/10.1101/2021.05.03.442240) <br />
