@@ -4,7 +4,7 @@ Networks for sequence prediction
 [![DOI](https://zenodo.org/badge/426944818.svg)](https://zenodo.org/badge/latestdoi/426944818)
 
 This repository contains the code to reproduce the results in the paper: <br />
-[Gated recurrence enables simple and accurate sequence prediction in stochastic, changing, and structured environments](https://doi.org/10.1101/2021.05.03.442240) <br />
+[Gated recurrence enables simple and accurate sequence prediction in stochastic, changing, and structured environments](https://doi.org/10.7554/eLife.71801) <br />
 by Cedric Foucault and Florent Meyniel.
 
 If you use this code or our results in your research,
@@ -13,9 +13,10 @@ please cite our paper using for instance this citation:
 ```bibtex
 @article{foucaultmeyniel2021gated,
   title={Gated recurrence enables simple and accurate sequence prediction in stochastic, changing, and structured environments},
-  journal={bioRxiv},
+  author={Foucault, Cedric and Meyniel, Florent},
+  journal={eLife},
   year={2021},
-  publisher={Cold Spring Harbor Laboratory}
+  doi={10.7554/eLife.71801}
 }
 ```
 
